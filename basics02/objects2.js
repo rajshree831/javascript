@@ -32,3 +32,27 @@ console.log(Object.keys(user));
 console.log(Object.entries(user));
 
 console.log(user.hasOwnProperty('email'));
+
+//destructuring of object
+
+const course={
+    name:"js",
+    price:"999",
+    teacher:"rajshree"
+}
+
+const {name:n}=course
+console.log(n);
+
+//API(json) as object
+// {
+//     "name":"khushi",
+//     "age":21,
+//     "price":"free"
+// }
+
+//API as array containing object
+
+[
+    {},{},{}
+]
