@@ -75,3 +75,6 @@ function print(i){
 }
 
 arr.forEach(print);
+
+//for each also used for array of objects 
+
